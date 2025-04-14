@@ -1,9 +1,9 @@
-# movingmatrix-service
-The template for services based on Laravel 12 with Sail and Telescope extentions.
+# movingmatrix-service-permission
+The template for permission service based on Laravel 12 with Sail and Telescope extentions.
 
 # Docker Compose Setup for Multi-Service Environment
 
-This repository provides a pre-configured `docker-compose.yml` setup to quickly deploy a set of commonly used services, including **MySQL**, and **Redis**, in a local development environment. These services are essential components for database management, and caching, respectively. The configuration is designed to be flexible and extensible, allowing additional services to be easily added to the stack as needed. Each service is pre-configured with default settings, including ports, environment variables, and persistent storage mappings, making it easy to integrate into your workflow or adapt for specific project requirements.
+This repository provides a pre-configured `docker-compose.yml` setup to quickly deploy a set of **permission service** based on **spatie/laravel-permission** package, including **MySQL**, and **Redis**, in a local development environment. These services are essential components for database management, and caching, respectively. The configuration is designed to be flexible and extensible, allowing additional services to be easily added to the stack as needed. Each service is pre-configured with default settings, including ports, environment variables, and persistent storage mappings, making it easy to integrate into your workflow or adapt for specific project requirements.
 
 ## Prerequisites
 
@@ -30,11 +30,11 @@ This repository provides a pre-configured `docker-compose.yml` setup to quickly 
 ### How to Use
 
 1. **Clone the Repository**:
-    `git clone https://github.com/DolgihDmitry/movingmatrix-service.git`
+    `git clone https://github.com/DolgihDmitry/movingmatrix-service-permission.git`
 
 
 2. **Go to the project folder**:
-   `cd movingmatrix-service`
+   `cd movingmatrix-service-permission`
 
 
 3. **Start Services**:
