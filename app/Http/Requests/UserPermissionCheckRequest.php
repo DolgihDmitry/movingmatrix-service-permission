@@ -2,10 +2,8 @@
 
 namespace App\Http\Requests;
 
-
 class UserPermissionCheckRequest extends MainRequest
 {
-
     /**
      * Get the validation rules that apply to the request.
      *

@@ -23,9 +23,6 @@ abstract class MainRequest extends FormRequest
         return true;
     }
 
-    /**
-     * @param Validator $validator
-     */
     public function failedValidation(Validator $validator)
     {
         throw new HttpResponseException(response()->json([

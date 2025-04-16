@@ -5,11 +5,9 @@ namespace App\Http\Controllers;
 use App\Http\Requests\UserPermissionCheckRequest;
 use App\Models\User;
 
-
 class UserPermissionController extends Controller
 {
     /**
-     * @param UserPermissionCheckRequest $request
      * @return \Illuminate\Http\JsonResponse
      */
     public function check(UserPermissionCheckRequest $request)
